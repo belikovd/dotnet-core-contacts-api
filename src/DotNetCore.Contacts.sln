@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Contacts.API", "DotNetCore.Contacts.API\DotNetCore.Contacts.API.csproj", "{D5C44BF9-35D5-493B-A71F-544ACA729A2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.Contacts.API", "DotNetCore.Contacts.API\DotNetCore.Contacts.API.csproj", "{D5C44BF9-35D5-493B-A71F-544ACA729A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Common.Abstractions", "DotNetCore.Common.Abstractions\DotNetCore.Common.Abstractions.csproj", "{78911AD3-9C23-4C48-92E0-3BB61B11656A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.Common.Abstractions", "DotNetCore.Common.Abstractions\DotNetCore.Common.Abstractions.csproj", "{78911AD3-9C23-4C48-92E0-3BB61B11656A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Common", "DotNetCore.Common\DotNetCore.Common.csproj", "{1BBC6AF0-70BC-4129-9A76-2B443C3E5322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.Common", "DotNetCore.Common\DotNetCore.Common.csproj", "{1BBC6AF0-70BC-4129-9A76-2B443C3E5322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.WebApi.Core", "DotNetCore.WebApi.Core\DotNetCore.WebApi.Core.csproj", "{426B9447-06D6-4C17-B247-7A065566F968}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.WebApi.Core", "DotNetCore.WebApi.Core\DotNetCore.WebApi.Core.csproj", "{426B9447-06D6-4C17-B247-7A065566F968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.DataAccess.Abstractions", "DotNetCore.DataAccess.Abstractions\DotNetCore.DataAccess.Abstractions.csproj", "{1B4D6A82-06C8-430D-B76A-C0E46BF0EE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.DataAccess.EntityFramework", "DotNetCore.DataAccess.EntityFramework\DotNetCore.DataAccess.EntityFramework.csproj", "{F55AC54F-ADBF-421F-881B-08FA92F2E15D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{426B9447-06D6-4C17-B247-7A065566F968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426B9447-06D6-4C17-B247-7A065566F968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426B9447-06D6-4C17-B247-7A065566F968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4D6A82-06C8-430D-B76A-C0E46BF0EE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4D6A82-06C8-430D-B76A-C0E46BF0EE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4D6A82-06C8-430D-B76A-C0E46BF0EE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4D6A82-06C8-430D-B76A-C0E46BF0EE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55AC54F-ADBF-421F-881B-08FA92F2E15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55AC54F-ADBF-421F-881B-08FA92F2E15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55AC54F-ADBF-421F-881B-08FA92F2E15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55AC54F-ADBF-421F-881B-08FA92F2E15D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
