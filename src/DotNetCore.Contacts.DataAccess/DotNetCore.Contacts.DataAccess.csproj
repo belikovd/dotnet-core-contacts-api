@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCore.Contacts.DataAccess.Abstractions\DotNetCore.Contacts.DataAccess.Abstractions.csproj" />
+    <ProjectReference Include="..\DotNetCore.Contacts.DataAccess.Entities\DotNetCore.Contacts.DataAccess.Entities.csproj" />
+    <ProjectReference Include="..\DotNetCore.DataAccess.EntityFramework\DotNetCore.DataAccess.EntityFramework.csproj" />
+  </ItemGroup>
+
+</Project>

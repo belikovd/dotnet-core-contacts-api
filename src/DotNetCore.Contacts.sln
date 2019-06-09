@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Common.Types", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Contacts.DataAccess.Abstractions", "DotNetCore.Contacts.DataAccess.Abstractions\DotNetCore.Contacts.DataAccess.Abstractions.csproj", "{47A1AEDB-4465-45A4-92A9-DC3FE3B1D02A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore.Contacts.DataAccess", "DotNetCore.Contacts.DataAccess\DotNetCore.Contacts.DataAccess.csproj", "{EA691526-3BE3-4E20-A81D-BE8905DE9A5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{47A1AEDB-4465-45A4-92A9-DC3FE3B1D02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A1AEDB-4465-45A4-92A9-DC3FE3B1D02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A1AEDB-4465-45A4-92A9-DC3FE3B1D02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA691526-3BE3-4E20-A81D-BE8905DE9A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA691526-3BE3-4E20-A81D-BE8905DE9A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA691526-3BE3-4E20-A81D-BE8905DE9A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA691526-3BE3-4E20-A81D-BE8905DE9A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
