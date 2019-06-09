@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 namespace DotNetCore.Contacts.DataAccess.Abstractions.Repositories
 {
-    public interface IContactPhonesRepository : IRepository<ContactEmail>
+    public interface IContactPhonesRepository : IRepository<ContactPhone>
     {
-        IEnumerable<ContactEmail> FindByContactId(int contactId);
+        IEnumerable<ContactPhone> FindByContactId(int contactId);
     }
 }
